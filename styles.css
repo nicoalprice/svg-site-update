@@ -1,3 +1,5 @@
+/*Replace the background pattern PNG with the matching SVG (background.svg). Use CSS to resize the SVG to match the original design.*/
+
 body {
   margin: 0;
   padding: 0;
@@ -44,6 +46,15 @@ header {
   header h1 {
     line-height: 1em;
   }
+
+nav {
+    /*When a user hovers over the menu icons, use CSS to change their color to match the menu item text color.
+*/
+}
+
+.logo {
+/* At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text.*/
+}
 
 main {
   padding-top: 50px;
