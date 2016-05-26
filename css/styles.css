@@ -1,15 +1,17 @@
-/*Replace the background pattern PNG with the matching SVG (background.svg). Use CSS to resize the SVG to match the original design.
+/* Treehouse Project 6 */
+/* by Nicoal Price */
 
 /*----- Global Styles -----*/
 
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  color: #111;
-  background: url('svgs/background.svg') #edeff0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #111;
+    background: url(../svgs/background.svg) #edeff0;
+    background-size: 53px 50px;
 }
 
 #container {
