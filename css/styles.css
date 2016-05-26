@@ -127,7 +127,10 @@ main {
         margin-right: 0;
       }
 
-.corgi-fawn {
+.corgi-red,
+.corgi-fawn,
+.corgi-sable,
+.corgi-black-tan {
     height: 170px;
 }
 
@@ -152,6 +155,25 @@ main {
 .snout {
     fill:#FBFEFF;
 }
+
+.corgi-black-tan
+
+.ear-black-tan {
+    fill: #BA8058;
+}
+
+.face-black-tan {
+    fill: #52595F;
+}
+
+.snout-black-tan {
+    fill: #FBFEFF;
+}
+
+.eyebrow-black-tan {
+    fill: #BA8058;
+}
+
 /*----- Footer -----*/
 
 footer {
