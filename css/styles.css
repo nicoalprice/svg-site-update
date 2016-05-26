@@ -93,6 +93,12 @@ header {
     fill: #F4C6A6;
 }
 
+.logo-name {
+    display: none;
+    color: #EAAA7F;
+    font-size: 1.3em;
+}
+
 /*----- Main Content -----*/
 
 main {
@@ -123,6 +129,10 @@ main {
     height: 170px;
 }
 
+.blue {
+    fill: blue;
+}
+
 .face-fawn,
 .ear-fawn {
     fill: #EAAA7F;
@@ -151,14 +161,36 @@ footer {
 
 /*----- Animation Keyframes -----*/
 
-/*----- SVG Styles -----*/
+@keyframe grow {
+    0% {
 
+    }
+
+    50% {
+
+    }
+
+    100% {
+
+    }
+}
+
+/*----- SVG Styles -----*/
+/*
+.logo-paw-print {
+    animation:;
+}
+*/
 
 /*----- Media Queries -----*/
 /* At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text.*/
- @media screen and (max-width: 420px) {
-        .logo-text {
-            display: none;
-        }
-
+@media screen and (max-width: 420px) {
+    .logo-text {
+        display: none;
     }
+
+    .logo-name {
+         display: block;
+    }
+
+}
