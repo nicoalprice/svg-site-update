@@ -68,7 +68,7 @@ nav li:hover {
 
 nav li,
 li .icon {
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .nav-heart {
