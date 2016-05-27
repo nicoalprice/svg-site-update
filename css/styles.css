@@ -153,10 +153,8 @@ main {
 }
 
 .snout {
-    fill:#FBFEFF;
+    fill: #FBFEFF;
 }
-
-.corgi-black-tan
 
 .ear-black-tan {
     fill: #BA8058;
@@ -170,8 +168,23 @@ main {
     fill: #FBFEFF;
 }
 
-.eyebrow-black-tan {
+.eyebrow-black-tan,
+.eyebrow-sable {
     fill: #BA8058;
+}
+
+.ear-red,
+.face-red {
+    fill: #BA8058;
+}
+
+.eyebrow-red {
+    fill:#EAAA7F;
+}
+
+.ear-sable,
+.face-sable {
+    fill: #844B24;
 }
 
 /*----- Footer -----*/
