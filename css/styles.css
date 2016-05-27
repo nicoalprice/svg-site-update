@@ -59,6 +59,16 @@ header {
 /*When a user hovers over the menu icons, use CSS to change their color to match the menu item text color.*/
 li:hover .icon {
     fill: #111;
+    transform: scale(1.2);
+}
+
+nav li:hover {
+    transform: scale(1.2);
+}
+
+nav li,
+li .icon {
+    transition: all .3s ease-in-out;
 }
 
 .nav-heart {
@@ -201,12 +211,13 @@ footer {
 /*----- SVG Styles -----*/
 /*
 .logo-paw-print {
-    animation:;
+    animation: grow;
 }
 */
 
 /*----- Media Queries -----*/
 /* At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text.*/
+
 @media screen and (max-width: 420px) {
     .logo-text {
         display: none;
