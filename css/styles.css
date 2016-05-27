@@ -57,7 +57,7 @@ header {
 
 
 /*When a user hovers over the menu icons, use CSS to change their color to match the menu item text color.*/
-.icon:hover {
+li:hover .icon {
     fill: #111;
 }
 
@@ -99,6 +99,7 @@ header {
     display: none;
     color: #EAAA7F;
     font-size: 1.3em;
+    text-transform: uppercase;
 }
 
 /*----- Main Content -----*/
@@ -127,6 +128,8 @@ main {
         margin-right: 0;
       }
 
+/*----- Dog Face Images -----*/
+
 .corgi-red,
 .corgi-fawn,
 .corgi-sable,
@@ -134,12 +137,9 @@ main {
     height: 170px;
 }
 
-.blue {
-    fill: blue;
-}
-
 .face-fawn,
-.ear-fawn {
+.ear-fawn,
+.eyebrow-red {
     fill: #EAAA7F;
 }
 
@@ -156,30 +156,16 @@ main {
     fill: #FBFEFF;
 }
 
-.ear-black-tan {
-    fill: #BA8058;
-}
-
 .face-black-tan {
     fill: #52595F;
 }
 
-.snout-black-tan {
-    fill: #FBFEFF;
-}
-
 .eyebrow-black-tan,
-.eyebrow-sable {
-    fill: #BA8058;
-}
-
+.eyebrow-sable,
 .ear-red,
+.ear-black-tan,
 .face-red {
     fill: #BA8058;
-}
-
-.eyebrow-red {
-    fill:#EAAA7F;
 }
 
 .ear-sable,
@@ -193,7 +179,7 @@ footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
-  color: #ba8058;
+  color: #BA8058;
 }
 
 /*----- Animation Keyframes -----*/
