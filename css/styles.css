@@ -256,4 +256,17 @@ footer {
          display: block;
     }
 
+/* Align menu on small screens. */
+
+    header nav {
+        padding-bottom: 10px;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
 }
