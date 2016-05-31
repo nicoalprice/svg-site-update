@@ -1,4 +1,4 @@
-/* Treehouse Project 6 */
+/* Treehouse Project 6: SVG Site Update */
 /* by Nicoal Price */
 
 /*----- Global Styles -----*/
@@ -63,26 +63,22 @@ li:hover .icon {
 }
 
 nav li:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 nav li,
 li .icon {
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-out;
 }
 
-.nav-heart {
+.nav-heart,
+.nav-contact {
     height: 13px;
     fill: #39ADD1;
 }
 
 .nav-location {
     height: 14px;
-    fill: #39ADD1;
-}
-
-.nav-contact {
-    height: 13px;
     fill: #39ADD1;
 }
 
@@ -194,26 +190,47 @@ footer {
 
 /*----- Animation Keyframes -----*/
 
-@keyframe grow {
+@keyframes grow {
     0% {
-
+        transform: scale(1);
     }
 
-    50% {
+    20% {
+        transform: scale(1.1);
+    }
 
+    40% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(0.9)
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
     }
 
     100% {
-
+        transform: rotate(360deg);
     }
 }
 
-/*----- SVG Styles -----*/
-/*
+/*----- SVG Animations -----*/
+
 .logo-paw-print {
-    animation: grow;
+    animation: grow 1.2s ease-out backwards;
+    animation-delay: .5s;
+    transform-origin: 50% 50%;
 }
-*/
+
+.logo-text {
+    animation: rotation 1s;
+    animation-delay: .1s;
+    transform-origin: 70.4px 69.9px;
+}
 
 /*----- Media Queries -----*/
 /* At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text.*/
